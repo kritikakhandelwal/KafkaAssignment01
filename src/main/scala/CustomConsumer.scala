@@ -24,7 +24,7 @@ object CustomConsumer extends App {
   while (true) {
     val records = consumer.poll(5000)
     for (record <- records.asScala)
-      log.info(s"Student Data:${record.value()}")
+      log.info(s"Student Information:${record.value()}")
   }
 
 }
