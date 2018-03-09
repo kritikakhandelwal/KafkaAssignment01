@@ -1,0 +1,51 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/knoldus/IdeaProjects/kafka1/src/main/scala/CustomProducer.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(edu.knoldus.producer.CustomProducer)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(edu.knoldus.producer.CustomProducer)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/knoldus/IdeaProjects/kafka1/src/main/scala/CustomProducer.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/knoldus/IdeaProjects/kafka1/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2d104631 for Scala compiler version 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/knoldus/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/knoldus/IdeaProjects/kafka1/target/scala-2.12/classes:/home/knoldus/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-0.11.0.0.jar:/home/knoldus/.ivy2/cache/net.jpountz.lz4/lz4/jars/lz4-1.3.0.jar:/home/knoldus/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.2.6.jar:/home/knoldus/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar:/home/knoldus/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.603057823 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from edu.knoldus.producer.CustomProducer...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(edu.knoldus.producer.CustomProducer)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(edu.knoldus.producer.CustomProducer)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(edu.knoldus.producer.CustomProducer,ModifiedNames(changes = UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(studentList,[Default]), UsedName(main,[Default]), UsedName(getClass,[Default]), UsedName(executionStart,[Default]), UsedName(notify,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(args,[Default]), UsedName(CustomProducer,[Default]), UsedName(delayedInit,[Default]), UsedName(log,[Default]), UsedName($isInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName(topic,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(==,[Default]), UsedName(props,[Default]), UsedName(eq,[Default]), UsedName(producer,[Default]), UsedName(hashCode,[Default]))) invalidates 1 classes due to The edu.knoldus.producer.CustomProducer has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(studentList,[Default]), UsedName(main,[Default]), UsedName(getClass,[Default]), UsedName(executionStart,[Default]), UsedName(notify,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(args,[Default]), UsedName(CustomProducer,[Default]), UsedName(delayedInit,[Default]), UsedName(log,[Default]), UsedName($isInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName(topic,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(==,[Default]), UsedName(props,[Default]), UsedName(eq,[Default]), UsedName(producer,[Default]), UsedName(hashCode,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(edu.knoldus.producer.CustomProducer)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from CustomProducer...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(CustomProducer)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(CustomProducer)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(CustomProducer,ModifiedNames(changes = UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(studentList,[Default]), UsedName(main,[Default]), UsedName(getClass,[Default]), UsedName(executionStart,[Default]), UsedName(notify,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(args,[Default]), UsedName(CustomProducer,[Default]), UsedName(delayedInit,[Default]), UsedName(log,[Default]), UsedName($isInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName(topic,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(==,[Default]), UsedName(props,[Default]), UsedName(eq,[Default]), UsedName(producer,[Default]), UsedName(hashCode,[Default]))) invalidates 1 classes due to The CustomProducer has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(studentList,[Default]), UsedName(main,[Default]), UsedName(getClass,[Default]), UsedName(executionStart,[Default]), UsedName(notify,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(args,[Default]), UsedName(CustomProducer,[Default]), UsedName(delayedInit,[Default]), UsedName(log,[Default]), UsedName($isInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName(topic,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(==,[Default]), UsedName(props,[Default]), UsedName(eq,[Default]), UsedName(producer,[Default]), UsedName(hashCode,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(CustomProducer)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
